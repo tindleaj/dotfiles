@@ -10,7 +10,7 @@ plugins=(
 )
 
 alias -g notes='code ~/Dropbox/notebook'
-alias -g zk='name=$(date +%Y%m%d%H%M) && echo "# ${name}" > ~/Dropbox/notebook/zettelkasten/$name.md && code ~/Dropbox/notebook/zettelkasten/$name.md'
+alias -g zk='name=$(date +%Y%m%d%H%M) && echo "# ${name}" > ~/Dropbox/notebook/archive/$name.md && code ~/Dropbox/notebook/archive/$name.md'
 
 source $ZSH/oh-my-zsh.sh
 [ -f "/Users/austin/.shopify-app-cli/shopify.sh" ] && source "/Users/austin/.shopify-app-cli/shopify.sh"
